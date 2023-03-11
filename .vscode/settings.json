@@ -1,0 +1,8 @@
+{
+    "auto-close-tag.enableAutoCloseSelfClosingTag": false,
+    "files.insertFinalNewline": true,
+    "editor.codeActionsOnSave": {},
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file",
+    "workbench.editor.highlightModifiedTabs": true
+}
