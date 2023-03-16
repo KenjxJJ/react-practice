@@ -1,0 +1,33 @@
+.tweet {
+  border: 1px solid #ccc;
+  width: 564px;
+  min-height: 68px;
+  padding: 10px;
+  display: flex;
+  font-family: "Helvetica", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.buttons {
+  margin-top: 10px;
+  margin-left: 2px;
+  font-size: 1.4em;
+  color: #aab8c2;
+}
+
+.reply-button,
+.retweetbutton,
+.likebutton,
+.more-options-button {
+  width: 80px;
+  display: inline-block;
+}
+.like-count,
+.retweet-count {
+  position: relative;
+  bottom: 2px;
+  font-size: 13px;
+  margin-left: 6px;
+  font-weight: bold;
+}
