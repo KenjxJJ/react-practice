@@ -1,5 +1,6 @@
 import React from "react";
 import "./index.css";
+import PropTypes from "prop-types";
 
 import Avatar from "./components/Avatar/Avatar";
 import NameWithHandle from "./components/NameWithHandle/NameWithHandle";
@@ -41,6 +42,17 @@ export const Tweet = ({ tweet }) => {
       </div>
     </div>
   );
+};
+
+Tweet.propTypes = {
+  tweet: PropTypes.shape({
+    likes: PropTypes.number,
+    retweets: PropTypes.number,
+    timestamp: PropTypes.string,
+    author: PropTypes.object, // Just an alterative - shape
+    gravatar: PropTypes.string,
+    message: PropTypes.string,
+  }),
 };
 
 function App() {
