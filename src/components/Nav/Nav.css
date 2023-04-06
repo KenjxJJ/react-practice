@@ -1,9 +1,8 @@
-.ItemPage-items {
-  margin: 0;
-  padding: 0;
+.App-nav {
+  display: grid;
+  grid-template-columns: 1fr minmax(5rem, 12rem);
 }
 
-.ItemPage-items li {
-  list-style: none;
-  margin-bottom: 20px;
+.App-nav > *:last-child {
+  place-self: center flex-end;
 }

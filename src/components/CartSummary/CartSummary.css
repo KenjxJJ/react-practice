@@ -1,0 +1,13 @@
+.CartSummary-wrapper {
+  cursor: pointer;
+}
+
+.fa {
+  font-size: 1.3rem;
+  margin: 0.4rem;
+}
+
+.CartSummary-info {
+  font-weight: 500;
+  opacity: 0.65;
+}
